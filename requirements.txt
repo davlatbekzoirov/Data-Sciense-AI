@@ -1,0 +1,11 @@
+pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade pip
+pip install tensorflow
+pip install tf-nightly
+pip install matplotlib
+pip install numpy
+pip install -U "jax[cpu]"
+pip install ultralytics
+pip3 install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+yolo task=classify mode=train model=yolov8s-cls.pt data=flowers epochs=10 imgsz=180
+yolo task=classify mode=predict model=best.pt source="sunflower.jpg"
