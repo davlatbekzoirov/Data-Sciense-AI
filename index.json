@@ -1,0 +1,49 @@
+{
+    "blocks": [
+        {
+            "coordinates": [
+                [
+                    200,
+                    200
+                ],
+                [
+                    300,
+                    300
+                ],
+                [
+                    100,
+                    100
+                ],
+                [
+                    100,
+                    100
+                ]
+            ],
+            "text": "This is a block of text."
+        },
+        {
+            "coordinates": [
+                [
+                    400,
+                    400
+                ],
+                [
+                    400,
+                    400
+                ],
+                [
+                    600,
+                    600
+                ],
+                [
+                    500,
+                    500
+                ]
+            ],
+            "text": "This is another block of text."
+        }
+    ],
+    "images": [
+        "marked_image.png"
+    ]
+}

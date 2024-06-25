@@ -1,0 +1,11 @@
+deepdoctection
+IPython
+matplotlib
+json
+random
+streamlit
+numpy
+pandas
+plotly
+PIL
+base64

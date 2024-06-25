@@ -1,0 +1,2 @@
+streamlit run script.py
+python3 main.py
